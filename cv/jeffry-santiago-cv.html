@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Jeffry Santiago — Software Engineer</title>
+    <style>
+      @page {
+        size: A4;
+        margin: 0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        background: #fff;
+        color: #1c2430;
+        font-family: "Segoe UI", Calibri, Arial, sans-serif;
+        font-size: 10.4pt;
+        line-height: 1.38;
+      }
+
+      a {
+        color: #1a3d66;
+        text-decoration: none;
+      }
+
+      .page {
+        width: 210mm;
+        height: 297mm;
+        padding: 13mm 15mm 12mm;
+        overflow: hidden;
+      }
+
+      header {
+        border-bottom: 2px solid #1a3d66;
+        padding-bottom: 8px;
+        margin-bottom: 11px;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 20.5pt;
+        line-height: 1.05;
+        letter-spacing: -0.02em;
+        font-weight: 700;
+        color: #12243c;
+      }
+
+      .role {
+        margin: 3px 0 6px;
+        font-size: 11pt;
+        font-weight: 650;
+        color: #1a3d66;
+      }
+
+      .contact {
+        margin: 0;
+        font-size: 9pt;
+        line-height: 1.45;
+        color: #3d4a5c;
+      }
+
+      h2 {
+        margin: 12px 0 5px;
+        font-size: 10pt;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: #1a3d66;
+        border-bottom: 1px solid #d5deea;
+        padding-bottom: 2px;
+        font-weight: 700;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      .summary {
+        margin: 0;
+      }
+
+      .skills p + p {
+        margin-top: 3px;
+      }
+
+      .label {
+        font-weight: 700;
+        color: #12243c;
+      }
+
+      .job {
+        margin-top: 2px;
+      }
+
+      .job-top,
+      .proj-top {
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+        align-items: baseline;
+      }
+
+      .job-title,
+      .proj-name {
+        font-weight: 700;
+        color: #12243c;
+      }
+
+      .meta {
+        color: #3d4a5c;
+        font-size: 9.5pt;
+        white-space: nowrap;
+      }
+
+      .company {
+        margin: 0 0 3px;
+        color: #243044;
+      }
+
+      ul {
+        margin: 0;
+        padding-left: 16px;
+      }
+
+      li {
+        margin: 0 0 2px;
+      }
+
+      .project {
+        margin: 0 0 7px;
+      }
+
+      .project:last-child {
+        margin-bottom: 0;
+      }
+
+      .proj-desc {
+        margin: 1px 0 0;
+      }
+
+      .edu-top {
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+        align-items: baseline;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <header>
+        <h1>Jeffry Santiago Montes de Oca Jiménez</h1>
+        <p class="role">Software Engineer</p>
+        <p class="contact">
+          Santo Domingo, Dominican Republic · Open to remote
+          <br />
+          <a href="mailto:engineer_santiago1912@hotmail.com">engineer_santiago1912@hotmail.com</a>
+          ·
+          <a href="https://github.com/JeffrySantiago1912">github.com/JeffrySantiago1912</a>
+          <br />
+          <a href="https://www.linkedin.com/in/jeffry-santiago-montes-de-oca-jimenez-44908522b/"
+            >linkedin.com/in/jeffry-santiago-montes-de-oca-jimenez-44908522b</a
+          >
+        </p>
+      </header>
+
+      <h2>Summary</h2>
+      <p class="summary">
+        Software Engineer with 4+ years building enterprise web applications, REST APIs and
+        integrations for insurance operations at Grupo Humano. Day-to-day stack: React, TypeScript,
+        C#/.NET, Node.js, SQL and Azure DevOps CI/CD. Also ships independent products that connect
+        web apps, PostgreSQL, WhatsApp and automation.
+      </p>
+
+      <h2>Skills</h2>
+      <div class="skills">
+        <p>
+          <span class="label">Core:</span>
+          React, TypeScript, Next.js, Angular, JavaScript, C#, .NET, Java, Node.js, Express, SQL,
+          PostgreSQL, REST APIs, Azure, Azure DevOps, Git, CI/CD
+        </p>
+        <p>
+          <span class="label">Additional:</span>
+          Shopify, SharePoint, Android, Kotlin, PHP, n8n, AI-assisted development
+        </p>
+      </div>
+
+      <h2>Experience</h2>
+      <article class="job">
+        <div class="job-top">
+          <span class="job-title">Programmer Analyst</span>
+          <span class="meta">Jul 2022 — Present</span>
+        </div>
+        <p class="company">Grupo Humano (Humano Seguros) · Santo Domingo, Dominican Republic</p>
+        <ul>
+          <li>Build and maintain enterprise web applications used in insurance operations.</li>
+          <li>
+            Deliver interfaces with React and TypeScript, and backend services and REST APIs with C#
+            / .NET.
+          </li>
+          <li>Integrate SQL databases and external REST services into those applications.</li>
+          <li>Release through Azure DevOps CI/CD, with code quality checks in SonarQube.</li>
+          <li>Troubleshoot production issues and collaborate in Agile/Scrum teams.</li>
+        </ul>
+      </article>
+
+      <h2>Selected projects</h2>
+      <article class="project">
+        <div class="proj-top">
+          <span class="proj-name">BarberOSS — business management SaaS</span>
+          <span class="meta"
+            ><a href="https://barbeross.netlify.app/">barbeross.netlify.app</a></span
+          >
+        </div>
+        <p class="proj-desc">
+          Appointments, clients, schedules, income tracking, reports, WhatsApp integration and
+          PDF/Excel export. React, TypeScript, Node.js, Express, PostgreSQL.
+        </p>
+      </article>
+      <article class="project">
+        <div class="proj-top">
+          <span class="proj-name">RDIntelligence — open-data web app</span>
+        </div>
+        <p class="proj-desc">
+          Helps residents and visitors explore places and public information in the Dominican
+          Republic, using weather, maps, natural events and open data from Open-Meteo, NASA EONET,
+          USGS, OpenStreetMap and the World Bank. React.
+        </p>
+      </article>
+      <article class="project">
+        <div class="proj-top">
+          <span class="proj-name">Business websites</span>
+        </div>
+        <p class="proj-desc">
+          Sites for local businesses, including Farmacia La Hoz, Farmacia Maireni and AbbaTech, with
+          WhatsApp as the contact channel.
+          <a href="https://jeffrysantiago1912.github.io/Farmacia-LaHoz/">Farmacia La Hoz</a>
+          ·
+          <a href="https://jeffrysantiago1912.github.io/Farmacia-Maireni/">Farmacia Maireni</a>
+          ·
+          <a href="https://jeffrysantiago1912.github.io/AbbaTech/">AbbaTech</a>
+        </p>
+      </article>
+
+      <h2>Education</h2>
+      <div class="edu-top">
+        <span class="job-title">Ingeniería en Sistemas y Computación</span>
+        <span class="meta">2018 — 2022</span>
+      </div>
+      <p class="company">Universidad Dominicana O&amp;M · Santo Domingo, Dominican Republic</p>
+
+      <h2>Languages</h2>
+      <p>Spanish — Native · English</p>
+    </main>
+  </body>
+</html>

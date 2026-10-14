@@ -4,7 +4,7 @@ export const es = {
   meta: {
     title: 'Jeffry Santiago | Desarrollador Full Stack | IA y Automatización',
     description:
-      'Desarrollador Full Stack e ingeniero de software con más de 4 años de experiencia construyendo aplicaciones empresariales, APIs, productos digitales, soluciones de automatización y software moderno.',
+      'Desarrollador Full Stack e ingeniero en sistemas con más de 4 años de experiencia construyendo aplicaciones empresariales, APIs, productos digitales, soluciones de automatización y software moderno.',
     jobTitle: 'Desarrollador Full Stack',
     ogLocale: 'es_ES',
   },
@@ -29,9 +29,9 @@ export const es = {
   },
   hero: {
     greeting: 'Hola, soy Jeffry Santiago',
-    role: 'Desarrollador Full Stack | IA y Automatización | Ingeniero de Software',
+    role: 'Desarrollador Full Stack | IA y Automatización | Ingeniero en Sistemas',
     description:
-      'Ingeniero de software con más de 4 años construyendo aplicaciones web empresariales, APIs REST e integraciones. Stack del día a día: React, TypeScript, C#/.NET, Node.js, SQL y CI/CD en Azure DevOps. También entrega productos independientes que conectan aplicaciones web, PostgreSQL, WhatsApp y automatización.',
+      'Ingeniero en sistemas y desarrollador de software con más de 4 años construyendo aplicaciones web empresariales, APIs REST e integraciones. Stack del día a día: React, TypeScript, C#/.NET, Node.js, SQL y CI/CD en Azure DevOps. También entrega productos independientes que conectan aplicaciones web, PostgreSQL, WhatsApp y automatización.',
     location: 'Santo Domingo, República Dominicana',
     availability: 'Abierto a oportunidades remotas e internacionales',
     status: 'Abierto a oportunidades remotas',
@@ -322,7 +322,7 @@ export const es = {
     github: 'GitHub',
   },
   footer: {
-    role: 'Desarrollador Full Stack | IA y Automatización | Ingeniero de Software',
+    role: 'Desarrollador Full Stack | IA y Automatización | Ingeniero en Sistemas',
     location: 'Santo Domingo, República Dominicana',
     availability: 'Abierto a oportunidades remotas e internacionales',
     rights: 'Todos los derechos reservados.',

@@ -4,7 +4,7 @@ export const en = {
   meta: {
     title: 'Jeffry Santiago | Full Stack Developer | AI & Automation',
     description:
-      'Full Stack Developer and Software Engineer with 4+ years building enterprise web applications, REST APIs, digital products and automation. Based in Santo Domingo and open to remote work.',
+      'Full Stack Developer and Systems Engineer with 4+ years building enterprise web applications, REST APIs, digital products and automation. Based in Santo Domingo and open to remote work.',
     jobTitle: 'Full Stack Developer',
     ogLocale: 'en_US',
   },
@@ -29,9 +29,9 @@ export const en = {
   },
   hero: {
     greeting: "Hi, I'm Jeffry Santiago",
-    role: 'Full Stack Developer | AI & Automation | Software Engineer',
+    role: 'Full Stack Developer | AI & Automation | Systems Engineer',
     description:
-      'Software Engineer with 4+ years building enterprise web applications, REST APIs and integrations. Day-to-day stack: React, TypeScript, C#/.NET, Node.js, SQL and Azure DevOps CI/CD. Also ships independent products that connect web apps, PostgreSQL, WhatsApp and automation.',
+      'Systems Engineer and software developer with 4+ years building enterprise web applications, REST APIs and integrations. Day-to-day stack: React, TypeScript, C#/.NET, Node.js, SQL and Azure DevOps CI/CD. Also ships independent products that connect web apps, PostgreSQL, WhatsApp and automation.',
     location: 'Santo Domingo, Dominican Republic',
     availability: 'Open to Remote & International Opportunities',
     status: 'Open to Remote Opportunities',
@@ -322,7 +322,7 @@ export const en = {
     github: 'GitHub',
   },
   footer: {
-    role: 'Full Stack Developer | AI & Automation | Software Engineer',
+    role: 'Full Stack Developer | AI & Automation | Systems Engineer',
     location: 'Santo Domingo, Dominican Republic',
     availability: 'Open to Remote & International Opportunities',
     rights: 'All rights reserved.',

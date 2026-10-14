@@ -106,7 +106,6 @@ export interface Dictionary {
     description: string
     location: string
     availability: string
-    status: string
     viewWork: string
     contact: string
     downloadCv: string

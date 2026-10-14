@@ -12,11 +12,7 @@ export function Hero() {
       <div className="hero-dots pointer-events-none absolute inset-0" aria-hidden="true" />
       <div className="relative mx-auto grid max-w-[92rem] items-center gap-12 lg:grid-cols-[minmax(0,1.35fr)_minmax(280px,420px)] lg:gap-16 xl:gap-24">
         <div>
-          <p className="inline-flex items-center gap-2 rounded-full border border-line bg-raised px-3 py-1 text-sm text-ink">
-            <span className="size-1.5 rounded-full bg-accent" aria-hidden="true" />
-            {t.hero.status}
-          </p>
-          <h1 className="mt-6 max-w-4xl font-serif text-4xl leading-[1.12] tracking-tight text-balance text-ink sm:text-5xl lg:text-6xl">
+          <h1 className="max-w-4xl font-serif text-4xl leading-[1.12] tracking-tight text-balance text-ink sm:text-5xl lg:text-6xl">
             {t.hero.greeting} <span aria-hidden="true">👋</span>
           </h1>
           <p className="mt-4 max-w-3xl text-lg leading-snug font-medium text-accent sm:text-xl">{t.hero.role}</p>

@@ -34,7 +34,6 @@ export const es = {
       'Ingeniero en sistemas y desarrollador de software con más de 4 años construyendo aplicaciones web empresariales, APIs REST e integraciones. Stack del día a día: React, TypeScript, C#/.NET, Node.js, SQL y CI/CD en Azure DevOps. También entrega productos independientes que conectan aplicaciones web, PostgreSQL, WhatsApp y automatización.',
     location: 'Santo Domingo, República Dominicana',
     availability: 'Abierto a oportunidades remotas e internacionales',
-    status: 'Abierto a oportunidades remotas',
     viewWork: 'Ver mi trabajo',
     contact: 'Contáctame',
     downloadCv: 'Descargar CV',
